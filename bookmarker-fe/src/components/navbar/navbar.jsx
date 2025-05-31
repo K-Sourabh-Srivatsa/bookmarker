@@ -136,16 +136,6 @@ function Navbar() {
                   >
                     {userDetails.firstName}
                   </a>
-                  <ul className="dropdown-menu">
-                    <li>
-                      <a className="dropdown-item" href="/user/account">
-                        Manage Account twice
-                      </a>
-                    </li>
-                    <li onClick={() => handleLogout()}>
-                      <a className="dropdown-item">Logout</a>
-                    </li>
-                  </ul>
                 </li>
               </ul>
             </div>
